@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="mapbox:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>mapbox</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="mapbox-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="mapbox:war exploded" />
+    </root>
+  </artifact>
+</component>
